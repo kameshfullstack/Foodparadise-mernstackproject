@@ -1,0 +1,80 @@
+header {
+  background-color: #3457ca; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px; /* Padding around the content */
+  text-align: center; /* Center-align text */
+   
+}
+
+/* CSS for the h1 element inside the header */
+header h1 {
+  font-size: 40px; /* Font size */
+  color: #fff;
+  margin: 0; /* Remove default margin */
+}
+
+/* CSS for the navigation menu */
+nav {
+  background-color: #3457ca; /* Background color */
+  padding: 0px; /* Padding around the menu */
+  text-align: right; /* Center-align text */
+}
+
+/* CSS for the navigation links */
+nav a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 10px; /* Add spacing between links */
+  
+}
+
+.sk1{
+  background-image: url( "C:\Users\kames\Downloads\tasty-tortilla-pieces-with-dips-fried-chicken.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Container styling */
+.Container {
+  margin-top: 50px; /* Adjust the top margin as needed */
+}
+
+/* Row styling for registration form */
+.justify-content-center-R {
+  display: flex;
+  align-items: center;
+  height: 40vh;
+ 
+}
+
+ 
+.Registration.form {
+  background-color: #fff;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin-left:130%;
+  align-items: center;
+   margin-top: -280px;
+}
+
+ 
+
+.button-container-R {
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+ .foodparadise-R{
+  margin-top:150px;
+  margin-bottom: 20px;
+  margin-left: 17%;
+ }
+  
