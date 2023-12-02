@@ -9,7 +9,7 @@ function Restaurant1(props) {
             src={props.image}
             className="card-img-top"
             alt="Restaurant"
-            style={{ height: "200px", objectFit: "cover" }}
+            style={{ height: "260px", objectFit: "cover" }}
           />
           <div className="card-body">
             <h3 className="card-title">{props.name}</h3>
