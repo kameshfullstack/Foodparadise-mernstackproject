@@ -68,7 +68,7 @@ const RegistrationForm = () => {
             <img src='\images\food-paradise 4.jpg' alt='' />
           </div>
           <div className="description-R">
-            <h3>foodparadise helps you to order the food easily<br></br> within a minute in your neighbour restaurants.</h3>
+            <h3>foodparadise helps you to order the food easily<br/> within a minute in your neighbour restaurants.</h3>
           </div>
         </Col>
       </Row>
