@@ -1,4 +1,4 @@
-// server.js
+ 
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -10,13 +10,13 @@ const PORT = process.env.PORT || 5000;
  
 
 
-// Connect to MongoDB
+// Connection to MongoDB
 mongoose.connect('mongodb+srv://kamesh:Kamesh007@cluster0.sguw7ny.mongodb.net/foodparadise', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
-// Create a mongoose schema and model for the user
+//  mongoose schema and model for the user
 const userSchema = new mongoose.Schema({
   username: String,
   email: String,
@@ -56,7 +56,7 @@ app.post('/api/login', async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    // Check if the user exists
+    // Check if the user already exists
     const user = await User.findOne({ email });
     if (!user) {
       return res.status(404).json({ message: 'User not found' });

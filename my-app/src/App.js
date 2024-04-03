@@ -4,12 +4,15 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 import Header from "./Components/Header";
 import Restaurant from "./Components/Restaurant";
+ 
 import Login from "./Components/Login";
 import Home from "./Components/Home";
 import Contact from "./Components/Contact";
 import RegistrationForm from "./Components/Register";
 import About from "./Components/About";
 import Errorpage from "./Components/Errorpage";
+ 
+ 
  
 
  
@@ -36,11 +39,13 @@ function App() {
         <Route path="/About" Component={About}/>
         <Route path="/Login" element={<Login setIsLoggedIn={setIsLoggedIn}/>}/>
         <Route path="/foods" Component={Restaurant}/>
-        <Route path="*" Component={Errorpage} /> 
+        
+        
+        <Route path="*" Component={Errorpage} />
       </Routes>
     </Router>
     </>
   );
-}
+  }
 
 export default App;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Restaurant1 from "./Restaurant1"; // Assuming you have a Restaurant component
+import Restaurant1 from "./Restaurant1";  
 import { useNavigate } from "react-router-dom";
 
  
