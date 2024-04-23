@@ -44,7 +44,6 @@ function RestaurantPage() {
           {restaurants.map((r) => (
             // Render Restaurant component for each restaurant
             <Restaurant1
-              key={r.id}
               name={r.name}
               location={r.location}
               cuisine={r.cuisine}

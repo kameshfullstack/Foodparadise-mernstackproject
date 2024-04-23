@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
 import Login from './Login';
 
 const RegistrationForm = () => {
   const navigate = useNavigate();
-
-  const [formData, setFormData] = useState({
+  const initialstate={
     username: '',
     email: '',
     password: '',
     confirmPassword: '',
-  });
+  }
+
+  const [formData , setFormData] = useState(initialstate);
 
   const [error, setError] = useState(null);
   const [registrationSuccess, setRegistrationSuccess] = useState(false);
